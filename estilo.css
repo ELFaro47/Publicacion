@@ -1,0 +1,447 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.body{
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+}
+
+.contenedor{
+    width: 90%;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 60px 0;
+    
+}
+
+
+
+.menu-nav{
+    text-align: right;
+    padding: 0; 
+}
+
+.menu-nav a{
+    display: inline-block;
+    text-align: center;
+    border: 1px solid rgba(226, 162, 43, 0.329);
+    text-decoration: none;
+    background-color: rgba(102, 70, 10, 0.692);
+    border-radius: 10px;
+    width: 150px;
+    height: 25px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    margin-left: 10px;
+    margin-top: 40px;
+    
+    
+}
+
+
+.header{
+    width: 100%;
+    background-image: linear-gradient(to right, #f8360083 0%, #f9d52398 100%), url("./svg/fabian-bachli-Iq11eskt5AQ-unsplash.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.hero{
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(250, 249, 244);
+    border-radius: 10px;
+    text-align: center;
+}
+
+
+
+.contenedor-textos{
+    padding-bottom: 100px;
+}
+
+
+.hero h1{
+    font-size: 60px;
+    color: white;
+    
+}
+
+.muestraestilo{
+text-decoration: none;
+color: white;
+
+}
+
+
+
+.copy{
+    font-size: 24px;
+    padding: 40px 0 ;
+    font-weight: 200;
+    color: rgb(12, 17, 0);
+}
+
+.wave{
+position: absolute;
+bottom: 0;
+left: 0;
+width: 100%;
+
+}
+
+
+.seccion1{
+    
+    padding-top: 30px;
+    
+    
+}
+
+h2 .titulo-seccion{
+    text-align:center;
+    font-size: 40px;
+    font-weight: 700;
+    color: rgb(245, 243, 247);
+    padding-bottom: 60px;
+}
+
+.titulo-seccion-muestras{
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    padding-top: -30px;
+    padding-bottom: 20px;
+}
+
+
+.contenedor-sobre-nosotros{
+   /*min-width: 300px;
+   min-height: 300px;*/
+   /*width: 100%;
+   height: 250px;
+   border-radius: 10px;*/
+
+    display: flex;
+    justify-content: space-between;
+    /*background-image: linear-gradient(to right, #f836006e 0%, #f9d52354 100%),url(./svg/fabian-bachli-Iq11eskt5AQ-unsplash.jpg); /*background: rgba(137, 43, 226, 0.562);*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100%;
+}
+
+
+/*.ilustracion{
+    border-radius: 20%;
+   
+}*/
+
+.ilustracion{
+    border: 1px solid rgba(80, 74, 74, 0.404);
+    width: 20%;
+    height: 200px;
+    margin: 50px 20px -10px 80px ;    
+    position: relative;
+    border-radius: 50%;
+    
+
+}
+
+/*---------------- Sector relatos----------------*/
+
+.relatos{
+    width: 40%;
+    margin-right: 160px;
+    color: beige;
+}
+
+
+.relato{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-right: 50px;
+    
+    
+}
+
+.n-relato{
+    font-size: 25px;
+    color: rgb(226, 226, 226);
+    /*margin-bottom: 5px -5px 0;*/
+    
+}
+.n-relato2{
+    width: 50%;
+    height: 30px;
+    padding-top: 3px;
+    margin-left: 70px;
+    margin: auto;
+    border: 1px solid rgba(102, 70, 10, 0.397);
+    background-color: rgba(102, 70, 10, 0.692);
+    border-radius: 5px;
+    
+}
+
+.t-relato2{
+padding-top: 10px;
+
+}
+
+
+
+
+.titulo-seccion3{
+    color:blueviolet;
+    text-align: center  ;
+    font-family: 'sans-serif';
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 30px;
+    
+
+}
+
+.titulo-seccion4{
+    color:blueviolet;
+    text-align: center  ;
+    font-family: 'sans-serif';
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.portafolio-contenedor{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+}
+
+.portafolio-bloque{
+   background-image: linear-gradient(to right, #f8360041 0%, #f9d5237c 100%), url(./svg/fabian-bachli-Iq11eskt5AQ-unsplash.jpg);
+   background-size: contain;
+   background-repeat: no-repeat;
+   background-size: cover;
+    
+}
+
+/* solo la parte orientacion*/
+
+/*.seccion-contenedor2 .contenedor{
+    max-width: 1100px;
+}*/
+
+.imagen-contenedor{            
+    width: 30%;
+    height: 250px 0;
+    margin-bottom: 20px;
+    
+}
+
+.titulo-seccion3{
+    color: white;
+    font-size: 40px;
+}
+
+.imagen-contenedor img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: center;
+    border-radius: 5px;
+}
+
+.seccion-contenedor2{
+    width: 100%;
+    max-width: 1800px;
+    background-image: linear-gradient(to right, #f8360086 0%, #f9d523af 100%),url(./svg/wood.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+
+                         /*Comparte tus ideas*/
+
+
+.titulo-seccion4{
+    color: white;
+    padding-top: 40px;
+    font-size: 40px;
+    
+}
+
+.formato-celular .libro{
+    width: 80%;
+    height: auto;
+    padding-left: 8px;
+    
+}
+
+.formato-arte .arte{
+    width: 89%;
+    height: 90%;
+    padding-left: 8px;
+    
+}
+
+.formato-guitarra .guitarra{
+    width: 258px;
+    height: 370px;
+    
+    
+}
+
+.contenedor-ideas{
+    width: 100%;
+    max-width: 1400px;
+    background-size: cover;
+    background-image: linear-gradient(to right, #f8360041 0%, #f9d5234f 100%), url(./svg/art.jpg);
+}
+
+.table-pricing{  
+    display: flex;
+    height: 600px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:space-evenly
+}
+
+ 
+
+.pricing{
+    width: 20%;
+    margin-bottom: 25%;
+    height: 200px;
+    /*background-color: blueviolet;*/
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+    border-radius: 10px;
+
+}
+
+.titulo-section{
+font-size: 40px;
+text-align: center;
+
+
+
+}
+                  /*FOOTER*/
+footer{
+    
+    width: 100%;
+    background-image: linear-gradient(120deg, #f6d46585 0%, #fd9f8591 100%),url(./svg/arbol\ mandarina.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 250px;
+    
+}
+
+footer .contenedor-secundario{
+    max-width: 1100px;
+     
+    
+}
+
+footer .titulo-section{
+    padding-top: 35px;
+margin-bottom: 20px;
+color: white;
+
+}
+
+.redes-sociales{
+    padding-top: 20px;
+    width: 20%;
+    margin-left: 10px;
+    display: flex;
+    margin: auto;
+    height: 90px;
+   align-items: center;
+   justify-content: space-between; 
+}
+
+.redes-sociales i{
+    font-size: 60px;
+    color: beige;
+    
+}
+
+
+@media screen and (max-width:700px)
+{
+
+nav .contenedor menu-nav{
+    margin-right: 50%;
+}
+
+    .contenedor-textos h1   {
+        
+    }
+
+
+.header-encabezado{
+    width: 140%;
+    height: 40%;
+    font-size: 80%;
+}
+
+.main{
+    width: 140%;
+}
+
+.footer{
+    width: 140%;
+}
+    
+}
+
+
+@media screen and (max-width:360px) {
+
+    .header-encabezado{
+        width: 255%;
+        font-size: 80%;
+        margin-right: 40%;
+        
+    }
+
+    .contenedor-textos h1{ 
+margin-right: 45px;
+    }
+
+    .copy{
+        text-align: center;
+        font-size: 20px;
+    }
+    .main{
+        width: 255%;
+        align-items: center;
+
+    }
+
+    .formato-guitarra .guitarra{
+        width: 174px;
+        height: 245px;
+    }
+
+    .pricing{
+        padding-bottom: 38%;
+    }
+
+.footer{
+    width: 255%;
+}  
+
+}
